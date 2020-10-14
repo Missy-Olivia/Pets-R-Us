@@ -42,4 +42,11 @@ nav>a:hover{
 #email{
     float:right;
 }
-   
+#about>h2{
+padding: 15px;
+text-align: center;
+background-color: rgba(153, 245, 153, 0.925);
+}
+#about>p{
+    text-align: center;
+}
