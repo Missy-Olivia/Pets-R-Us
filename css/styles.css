@@ -1,4 +1,47 @@
 
+nav>a{
+    text-transform: uppercase;
+    color: black;
+}
+nav>a:hover{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: green;
+}
+#home{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(153, 245, 153, 0.925);
+}
+#dogs{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.caption>p{
+	display: none;
+	opacity: 0.8;
+	background:#cae5c1;
+	width: 30%;
+	position: absolute;
+	bottom: 0px;
+    padding: 10px;
+    font-weight:bold ;
+}
+#contact{
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(153, 245, 153, 0.925);
+
+}
+#email{
+    float:right;
+}
     body {font-family: Arial, Helvetica, sans-serif;
 
     }

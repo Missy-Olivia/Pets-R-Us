@@ -1,13 +1,134 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/styles.css" type="text/css" rel="stylesheet">
-
-<link href="bootstrap css/bootstrap.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-
+    <head>
+        <title>Pets-R-Us</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="bootstrap css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar bg-light ">
+                <a href="#home">Home</a>
+                <a href="#">About</a>
+                <a href="#contact">Contacts</a>
+                <form id="buttons">
+                <button class="btn btn-outline-success" type="button">Sign Up</button>
+                <button  class="btn btn-outline-success" type="button">Donate</button>
+                </form>
+              </nav>
+              <div id="home">
+                <h1>Looking for a pet?</h1>
+                <h2>We have made it easy for you; find, adopt and re-home.</h2>
+                <a href="#dogs"><button class="btn btn-outline-success">Find your pet</button></a>
+            </div>
+            <div id="dogs">
+                <h2>Choose your new bestfriend!</h2>
+                <div class="row">
+                    <div class="column">
+                        <img src ="img/dominika.jpg" width="300px" height="300px">
+                        <div class="caption">
+                            <p>Hi, I'm Tobi,<br>
+                                I'm 2 months old,<br>
+                                I'm a Doberman.
+                            </p>
+                        </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/gilberto.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Gilberto,<br>
+                              I'm 9 months old,<br>
+                              I'm a Pitbull Terrier.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/husky.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Husky,<br>
+                              I'm 6 months old,<br>
+                              I'm an Autralian Shepherd.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/josh.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Josh,<br>
+                              I'm 4 months old,<br>
+                              I'm a Fox Terrier.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/lucas.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Lucas,<br>
+                              I'm 5 months old,<br>
+                              I'm a Siberian Husky.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/pickles.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Pickles,<br>
+                              I'm 3 months old,<br>
+                              I'm an Akbash Dog.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/ted.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Ted,<br>
+                              I'm 3 months old,<br>
+                              I'm a Great Dane.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/valeria.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm Valeria,<br>
+                              I'm 5 months old,<br>
+                              I'm a Cardigan Welsh Yorgi.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                    <div class="column">
+                        <img src="img/ruffles.jpg" width="300px" height="300px">
+                        <div class="caption">
+                          <p>Hi, I'm ruffles,<br>
+                              I'm 3 months old,<br>
+                              I'm an Australian Shepherd.
+                          </p>
+                      </div>
+                        <figcaption><button class="btn btn-outline-success">Adopt me</button></figcaption>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <h2>Contact Us</h2>
+              <div class="row">
+                  <div class="col-md-6">
+                      <i class="fa fa-phone" aria-hidden="true"></i> +250-785-637-106
+                  </div>
+                  <div class="col-md-6">
+                      <i  class="fa fa-envelope-open" aria-hidden="true"></i> pets-r-us@gmail.com
+                  </div>
+              </div>  
+              <!--login page-->
 <h2 style="text-align: center;margin-top:5%;">Login Form</h2>
 
     <form style="width: fit-content ; margin-left: 37%;margin-top: 2%;">
@@ -16,11 +137,11 @@
         <div class="form-group" style="width: fit-content;">
           <label for="formGroupExampleInput">User Name </label>
           
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Fill The User NAae">
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Fill in username">
         </div>
         <div class="form-group">
           <label for="formGroupExampleInput2">password</label>
-          <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Fill The Password">
+          <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Fill in password">
         </div>
         <button type="button" class="btn btn-success " style="width:60px">Login </button>
         <a href="#signup">Sign up</a>
@@ -30,11 +151,10 @@
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-
-
-    
+    </div>    
 </form>
-
-</body>
+</div>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
