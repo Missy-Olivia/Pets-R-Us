@@ -1,0 +1,41 @@
+ *{
+        font-family: 'Roboto', sans-serif;
+    }
+
+.donate{
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+    margin-top: 20px;
+}
+.donate button{
+    margin-top: 20px;
+    margin-left: 35% !important;
+    
+    padding-left: 10px ;
+    padding-right: 10px;
+    width: 200px;
+   
+}
+body img{
+    width: 600px;
+    height: 200px;
+  
+   
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0.6, 0.6, 0.6); 
+    background: rgba(0.5, 0.5, 0.5, 0.5); 
+    padding: 25px;
+  }
