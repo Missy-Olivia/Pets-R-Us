@@ -1,45 +1,71 @@
 
-nav>a{
-    text-transform: uppercase;
-    color: black;
-}
-nav>a:hover{
+* {
     box-sizing: border-box;
-    text-decoration: none;
-    color: green;
+    scroll-behavior: smooth;
 }
-#home{
-    text-align: center;
-    padding: 50px;
-    background-color: rgba(153, 245, 153, 0.925);
-}
-#dogs{
-    text-align: center;
-}
-.column{
-    float: left;
-    width: 30%;
-    padding: 20px;
-    position: relative;
-    cursor: pointer;
-}
-.caption>p{
-	display: none;
-	opacity: 0.8;
-	background:#cae5c1;
-	width: 30%;
-	position: absolute;
-	bottom: 0px;
-    padding: 10px;
-    font-weight:bold ;
-}
-#contact{
-    text-align: center;
-    padding: 30px;
-    background-color: rgba(153, 245, 153, 0.925);
 
+body {
+    
+    overflow-x: hidden;
+    color: #ffffff;
 }
-#email{
-    float:right;
+
+.go {
+    border-radius: 20px;
+    color: red;
 }
-   
+
+
+.landing {
+    background-image: url("../img/kiddogonpier.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#push {
+    padding-top: 25%;
+}
+
+.landing-text h1, h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.landing-text h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+}
+
+
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+figure img {
+    height: 260px;
+    width: 260px;
+}
+
+.welcome-txt {
+    margin-top: 160px;
+}
+
+.txt {
+    font-family: system-ui, cursive;
+    color: black;
+    font-size: 23px;
+}
+
+.txt-big {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
