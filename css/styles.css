@@ -22,11 +22,28 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
+    background-position: center center;
+    backface-visibility: hidden;
+    animation:landing 10s linear infinite 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes landing{ 
+    0%{
+        background-image: url("../img/kiddogonpier.png");
+    }
+    25%{
+        background-image: url("../img/2dogs.jpg");
+    }
+    50%{
+        background-image: url("../img/pets.jpg");
+    }
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 #push {
