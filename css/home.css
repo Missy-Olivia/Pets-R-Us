@@ -11,7 +11,7 @@ nav>a:hover{
 #home{
     text-align: center;
     padding: 50px;
-    background-color: rgba(142, 148, 142, 0.925);
+    background-color: rgba(153, 245, 153, 0.925);
 }
 #dogs{
     text-align: center;
@@ -36,7 +36,7 @@ nav>a:hover{
 #contact{
     text-align: center;
     padding: 30px;
-    background-color: rgba(142, 148, 142, 0.925);
+    background-color: rgba(153, 245, 153, 0.925);
 
 }
 #email{
@@ -45,7 +45,7 @@ nav>a:hover{
 #about>h2{
 padding: 15px;
 text-align: center;
-background-color: rgba(142, 148, 142, 0.925);
+background-color: rgba(153, 245, 153, 0.925);
 }
 #about>p{
     text-align: center;

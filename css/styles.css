@@ -39,7 +39,6 @@ body {
         background-image: url("../img/pets.jpg");
     }
 }
-
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100vh;
