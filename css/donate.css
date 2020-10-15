@@ -1,4 +1,12 @@
-
+nav>a{
+    text-transform: uppercase;
+    color: black;
+}
+nav>a:hover{
+    box-sizing: border-box;
+    text-decoration: none;
+    color:green;
+}
 
 .donate{
     margin-left: 30% !important;
