@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="bootstrap css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row" style="margin: 10%;">
+<div class="col-6" style="background-color: rgb(10, 85, 3);padding: 0;">
+    <img src="./img/josh.jpg"  id="inputGroupFile01" style="width: 100%; height: 500px; "></img>
+</div>
+<div class="col-6" style="background-color: aquamarine;">
+    <h4>FirstName</h4>
+    <span id="fullName"></span> 
+    <h4>LastName</h4>
+    <span id="LastName"></span>
+    <h4>PetsName</h4>
+    <span id="PetsName"></span>
+    <h4>Location</h4>
+    <span id="Location"></span>
+    <h4>AboutPet</h4>
+    <span id="AboutPet"></span>
+</div>
+    </div>
+</div>
+</body>
+<script>
+    var userData =  JSON.parse(window.localStorage.getItem('userdata'))
+    document.getElementById("fullName").innerHTML = userData.fullName
+    document.getElementById("LastName").innerHTML = userData.LastName
+    document.getElementById("PetsName").innerHTML = userData.PetsName
+    document.getElementById("Location").innerHTML = userData.Location
+    document.getElementById("AboutPet").innerHTML = userData.AboutPet
+// document.getElementById("inputGroupFile01").src = userData.inputGroupFile01
+
+    
+</script>
+</html>

@@ -9,16 +9,23 @@
         <link rel="stylesheet" href="bootstrap css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/donate.css"/>
         <title>Donation form</title>
-    </head>
-
-
+ </head>
     <body>
         <div class="container">
+          <nav class="navbar bg-light " id="backgro" >
+            <a href="home.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contacts</a>
+            <form id="buttons">
+          <a href="signup.html" class="link">  <button class="btn btn-outline-success" type="button">Sign Up</button></a>
+          <a href="donate.html" class="link"><button  class="btn btn-outline-success" type="button">Donate</button></a>  
+            </form>
+          </nav>
             <img src="img/pet1.jpg">
             <div class="centered">Donate Your Pet here!</div>
           </div>
        
-        <form class="donate">
+        <form class="donate" action="success.html">
             <div class="form-group">
                 <label for="input-group-text"><strong>First Name</strong></label>
                 <input type="text" class="form-control" id="inputEmail" placeholder="First name..." required>
@@ -30,15 +37,15 @@
             
             <div class="form-group">
                 <label for="input-group-text"> <strong>Pet's Name</strong></label>
-                <input type="text" class="form-control" id="inputEmail" placeholder="Pet's name..." required>
+                <input type="text" class="form-control" id="inputEmails" placeholder="Pet's name..." required>
             </div>
             <div class="form-group">
                 <label for="input-group-text"> <strong>Location</strong></label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Your location..." required>
+                <input type="text" class="form-control" id="input-group-text" placeholder="Your location..." required>
             </div>
             <div class="form-group">
                 <label for="input-group-text"> <strong>About Pet</strong></label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Small details on pet..." required>
+                <input type="text" class="form-control" id="inputText" placeholder="Small details on pet..." required>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
@@ -50,9 +57,7 @@
                   <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                 </div>
               </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary"onclick="formVal()">Submit</button>
         </form>
-       
-       
     </body>
     </html>
