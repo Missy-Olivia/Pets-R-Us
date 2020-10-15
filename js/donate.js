@@ -1,7 +1,7 @@
 
 
 function formVal(){
-    const fullName =  document.getElementById( "inputEmail").value
+    const fullName =  document.getElementById( "inputEmail").value 
     const LastName =  document.getElementById( "inputPassword").value
     const PetsName=  document.getElementById( "inputEmails").value
     const Location =  document.getElementById( "input-group-text").value
