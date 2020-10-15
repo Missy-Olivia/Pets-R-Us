@@ -1,6 +1,4 @@
- *{
-        font-family: 'Roboto', sans-serif;
-    }
+
 
 .donate{
     margin-left: 30% !important;
@@ -25,13 +23,16 @@ body img{
 .container {
     position: relative;
     text-align: center;
-    color: yellow;
-    font-size: 40px;
-    font-weight: 900;
+    color:black;
+   
+  
     
   }
   .centered {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
+    font-size: 30px;
+    font-weight: 900;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
