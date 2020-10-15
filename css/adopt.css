@@ -1,18 +1,9 @@
 
 .adopt{
     text-align: center;
- 
     margin-left: 30% !important;
     margin-right: 30% !important;
-body{
-    height: 100vh;
-    text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/slide1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-form{
+
     background-color: rgba(153, 245, 153, 0.925);
     margin-left: 20% ;
     margin-right: 20%;
