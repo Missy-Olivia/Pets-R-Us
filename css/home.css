@@ -6,7 +6,7 @@ nav>a{
 nav>a:hover{
     box-sizing: border-box;
     text-decoration: none;
-    color: green;
+    color:black;
 }
 #home{
     text-align: center;
