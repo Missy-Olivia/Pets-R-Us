@@ -10,27 +10,37 @@ body {
     color: #ffffff;
 }
 
-.go {
-    border-radius: 20px;
-    color: red;
-}
-
-
 .landing {
     background-image: url("../img/kiddogonpier.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
+    background-position: center center;
+    backface-visibility: hidden;
+    animation:landing 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
 }
-
+@keyframes landing{ 
+    0%{
+        background-image: url("../img/kiddogonpier.png");
+    }
+    25%{
+        background-image: url("../img/2dogs.jpg");
+    }
+    50%{
+        background-image: url("../img/pets.jpg");
+    }
+}
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
 }
 
 #push {
-    padding-top: 25%;
+    padding-top: 30%;
 }
 
 .landing-text h1, h2 {
@@ -40,13 +50,6 @@ body {
 .landing-text h1 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 60px;
-}
-
-
-a {
-    color: white;
-    font-size: 18px;
-    font-weight: normal;
 }
 
 figure img {
