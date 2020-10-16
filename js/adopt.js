@@ -17,3 +17,10 @@ let adoptdata = {
 
 }
 console.log( localStorage.getItem('adoptdata'))
+
+$("document").ready(function(){
+    $("button#adoptBtn").click(function(){
+        $("#adopt-msg").show();
+        $("#adopt-msg").text("Operation successfully completed");
+    })
+});
