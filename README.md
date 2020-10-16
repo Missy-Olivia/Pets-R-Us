@@ -19,11 +19,11 @@ BOOTSTRAP
 JQUERY
 ## Support and contact details
 In case of issues with the website, you can contact the authors on the following emails.
-ngamissia@gmail.com
-fabiennehirwa1@gmail.com
-byusagisele@gmail.com
-bellamandy45@gmail.com
-uwizeyimanafrancine62@gmail.com
+ngamissia@gmail.com<br>
+fabiennehirwa1@gmail.com<br>
+byusagisele@gmail.com<br>
+bellamandy45@gmail.com<br>
+uwizeyimanafrancine62@gmail.com<br>
 ### License
 *MIT*
 Copyright (c) {2020} 
