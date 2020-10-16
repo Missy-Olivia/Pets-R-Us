@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/proxy/U6zMWnOKKr4kJSVwtbU-5jfg9TFj1P1U45mzWs6V1skAZ3T5A9cGW9pFpzLeIhU5WdPSQKCO40BOOXFqy21zZQisCgumVtOpiOlu72PlF5lAG00pXPAwfLOlDTc5Vg");
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#col-6{
+   padding-top: 30px !important;
+   padding-left: 80px !important;
+}
+.row{
+    background-color: white !important;
+}
+.link{
+    padding-top: 60px !important;
+    font-size: 30px !important;
+   
+}
+.link button{
+    font-size: 20px !important;
+   
+}
