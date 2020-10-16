@@ -37,6 +37,7 @@ body img{
     
   }
   .centered {
+    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     font-size: 30px;
@@ -46,5 +47,5 @@ body img{
     transform: translate(-50%, -50%);
     background: rgb(0.6, 0.6, 0.6); 
     background: rgba(0.5, 0.5, 0.5, 0.5); 
-    padding: 25px;
+    padding: 20px;
   }
