@@ -47,21 +47,11 @@ body img{
     
   }
   .centered {
-    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 900;
-
     padding-bottom: 40px;
     padding-top: 10px;
 
  
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgb(0.6, 0.6, 0.6); 
-    background: rgba(0.5, 0.5, 0.5, 0.5); 
-    padding: 20px;
   }
-
