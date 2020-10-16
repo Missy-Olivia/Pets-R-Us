@@ -1,3 +1,4 @@
+
 body{
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,4 +35,9 @@ nav>a:hover{
     box-sizing: border-box;
     text-decoration: none;
     color:black;
+}
+
+
+#submit{
+margin-left: 40%;
 }
