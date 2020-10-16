@@ -17,4 +17,12 @@ let userdata = {
     localStorage.setItem('userdata',JSON.stringify(userdata))
 
 }
-console.log( localStorage.getItem('userdata'))
+console.log( localStorage.getItem('userdata'));
+
+$("document").ready(function(){
+    $("button#donateBtn").click(function(){
+            $("#donate-msg").show();
+            $("#donate-msg").text("Operation successfully completed");
+
+    })
+});

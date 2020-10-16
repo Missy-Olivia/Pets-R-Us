@@ -30,3 +30,9 @@ h2{
     font-size: 20px !important;
    
 }
+#adopt-msg {
+    display: none;
+}
+#donate-msg {
+    display: none;
+}
