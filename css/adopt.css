@@ -1,4 +1,43 @@
 
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/2dogs.jpg");
+}
+.adopt{
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+    
+}
+
+form{
+    background-color: white;
+    margin-left: 20% ;
+    margin-right: 20%;
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+#submit{
+margin-left: 40%;
+}
+.banner{
+margin-left: 30%;
+margin-bottom: 40px;
+color:green;
+}
+nav>a{
+    text-transform: uppercase;
+    color: black;
+}
+nav>a:hover{
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+}
+
+
 #submit{
 margin-left: 40%;
 }
