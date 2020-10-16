@@ -1,10 +1,10 @@
 # Pets-R-Us
 #### Contributors
-[Ngabire Olivia Missy](https://github.com/Missy-Olivia)
-[Hirwa Fabienne](https://github.com/FabienneHirwa)
-[Muhorakeye Bella Amandine](https://github.com/Bella-Amandine)
-[Byusa Giselle](https://github.com/byusa123)
-[Uwizeyimana Francine]([https://github.com/FrancineU)
+>Ngabire Olivia Missy (https://github.com/Missy-Olivia)>
+>Hirwa Fabienne (https://github.com/FabienneHirwa)>
+>Muhorakeye Bella Amandine (https://github.com/Bella-Amandine)>
+>Byusa Giselle (https://github.com/byusa123)>
+>Uwizeyimana Francine([https://github.com/FrancineU)>
 ## Description
 This project is a website for a pet rescue and adoption organisation called “Pets-R-Us”.
 It’s a site where; dog-lovers can go to find a new pet, and people who would like to rehome their own pets can reach out to the one who are looking for pets without having to go through so much trouble.
